@@ -1,0 +1,85 @@
+/* src/App.css */
+
+/* Body background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #64d79e;
+  margin: 0;
+  padding: 0;
+}
+
+/* Login container */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f3a93; /* Soft navy blue */
+}
+
+/* Input fields */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #d1d9e6;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Input focus effect */
+.login-container input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Labels */
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #4b4b4b;
+}
+
+/* Buttons */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2; /* Elegant blue */
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-container button:hover {
+  background-color: #70dbab;
+}
+
+/* Message styling */
+.message {
+  text-align: center;
+  margin-top: 15px;
+  color: red;
+  font-weight: 600;
+}
+
+/* Welcome box after login */
+.welcome-box {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 16px;
+  line-height: 1.6;
+}
